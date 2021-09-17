@@ -1,0 +1,8 @@
+body{font-family: Urbanist, sans-serif;background-color:#FDF0D5;margin-bottom: 25px}
+h1{color:#746D75; font-size: 3em; text-decoration: underline}
+h2{color: #9E643C; font-size: 2em; text-decoration: underline}
+body {border-style: dotted; border-left-color:#8C4843;border-left-width: 10px; border-bottom: hidden;border-top: hidden; padding-left: 35px; border-right-color: #8C4843; border-right-width: 10px; padding-right: 35px; }
+p,ul,ol {margin-left: 1.5em;}
+div {margin-left: 2em;margin-top: 3em}
+h3 {color: #746D75; font-size: 1.5em; text-decoration: underline}
+img {margin-left: 1.5em}

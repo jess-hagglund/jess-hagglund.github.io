@@ -1,8 +1,64 @@
-body{font-family: Urbanist, sans-serif;background-color:#FDF0D5;margin-bottom: 25px}
-h1{color:#746D75; font-size: 3em; text-decoration: underline}
-h2{color: #9E643C; font-size: 2em; text-decoration: underline}
-body {border-style: dotted; border-left-color:#8C4843;border-left-width: 10px; border-bottom: hidden;border-top: hidden; padding-left: 35px; border-right-color: #8C4843; border-right-width: 10px; padding-right: 35px; }
-p,ul,ol {margin-left: 1.5em;}
-div {margin-left: 2em;margin-top: 3em}
-h3 {color: #746D75; font-size: 1.5em; text-decoration: underline}
-img {margin-left: 1.5em}
+#content {
+    max-width: 900px;
+    margin:auto;}
+body{
+    font-family: Urbanist, sans-serif;
+    margin: 10px;}
+h1{
+    color:#746D75; 
+    font-size: 4em; 
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    }
+h2{
+    color: #9E643C; 
+    font-size: 2em; 
+    text-decoration: underline;
+    }
+p,ul,ol,li {
+    font-size: 1.05em;}
+ul,ol,li {
+    line-height: 1.45em;}
+p {
+    line-height: 1em;
+    text-align: center;}
+h3 {font-size: 1.5em; 
+    text-decoration: underline;
+    margin-bottom: 4px;}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;}
+#one {text-align: center;
+    font-size: 1.5em;
+    background-color: #9E643C;
+    padding:10px;
+    margin-bottom: 20px;}
+#two {
+    background-color: #FDF0D5;
+    padding: 15px;
+    border:solid 5px #F9D89D; 
+    width: 400px;
+    float:left;
+    margin-bottom: 10px;}
+#three {
+    background-color: #FDF0D5;
+    padding: 15px;
+    border:solid 5px #F9D89D;
+    width: 400px;
+    float: right;
+    }
+#four {
+    background-color: #9E643C;  
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border:solid 5px #9E643C;
+    padding: 15px; 
+    width: 400px;
+    float:left}
+#five {
+    margin-bottom: 8.25px;}

@@ -1,17 +1,23 @@
 #content {
-    max-width: 900px;
-    margin:auto;}
+    max-width: 90%;
+    margin:auto;
+    position: relative}
 body{
     font-family: Urbanist, sans-serif;
     margin: 10px;}
 h1{
-    color:#746D75; 
+    color: cornsilk;
     font-size: 4em; 
     text-decoration: underline;
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 0px;
-    }
+    margin-bottom: 30px;
+    background-color: #9E643C;
+    padding: 0.5em;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    opacity: 0.80}
 h2{
     color: #9E643C; 
     font-size: 2em; 
@@ -20,45 +26,50 @@ h2{
 p,ul,ol,li {
     font-size: 1.05em;}
 ul,ol,li {
-    line-height: 1.45em;}
-p {
-    line-height: 1em;
+    line-height: 1.25em;}
+p1 {
+    line-height: .95em;
     text-align: center;}
-h3 {font-size: 1.5em; 
+h3 {font-size: 1.25em; 
     text-decoration: underline;
-    margin-bottom: 4px;}
+    margin-bottom: 0px;
+    margin-top: auto}
+h4 {text-align: center;}
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;}
-#one {text-align: center;
+    width: 90%;}
+
+#one {
     font-size: 1.5em;
+    color:cornsilk;
     background-color: #9E643C;
     padding:10px;
-    margin-bottom: 20px;}
-#two {
-    background-color: #FDF0D5;
-    padding: 15px;
-    border:solid 5px #F9D89D; 
-    width: 400px;
-    float:left;
-    margin-bottom: 10px;}
-#three {
-    background-color: #FDF0D5;
-    padding: 15px;
-    border:solid 5px #F9D89D;
-    width: 400px;
-    float: right;
-    }
-#four {
-    background-color: #9E643C;  
-    text-align: center;
-    margin-top: 10px;
     margin-bottom: 20px;
-    border:solid 5px #9E643C;
-    padding: 15px; 
-    width: 400px;
-    float:left}
+    width: 800px;
+    position:absolute;
+    bottom: 135px;
+    right: 0;
+    opacity: 0.80}
+
+#two {
+    padding: 5px;
+    width: 645px;
+    float:left;
+    margin-left: 155px;}
+#three {
+    padding: 5px;
+    width:1350px;
+    float: left;
+    margin-left: 155px;
+}
+#four {
+    margin-bottom: 20px;
+    padding: 5px; 
+    width: 650px;
+    float:left;
+    margin-right: 155px}
 #five {
-    margin-bottom: 8.25px;}
+    margin-bottom: 8.25px;
+    font-size: 1.15em}

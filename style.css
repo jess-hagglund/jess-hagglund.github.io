@@ -7,7 +7,7 @@ body{
     margin: 10px;}
 h1{
     color: cornsilk;
-    font-size: 4em; 
+    font-size: 3em; 
     text-decoration: underline;
     text-align: center;
     margin-top: 30px;
@@ -16,17 +16,19 @@ h1{
     padding: 0.5em;
     position: absolute;
     left: 0;
-    top: 50px;
+    top: 120px;
     opacity: 0.80}
 h2{
     color: #9E643C; 
     font-size: 2em; 
     text-decoration: underline;
+    margin-top: 5px;
     }
 p,ul,ol,li {
     font-size: 1.05em;}
 ul,ol,li {
     line-height: 1.25em;}
+}
 p1 {
     line-height: .95em;
     text-align: center;}
@@ -39,38 +41,62 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;}
+    width: 70%;}
 
 #one {
-    font-size: 1.5em;
+    font-size: 1em;
     color:cornsilk;
     background-color: #9E643C;
-    padding:10px;
+    padding:0.5em;
     margin-bottom: 20px;
-    width: 800px;
+    width: 550px;
     position:absolute;
-    top: 645px;
-    right: 0;
+   left: 0px;
+    bottom: 550px;
     opacity: 0.80;
     text-align: center;}
-
+    
 #two {
     padding: 5px;
-    width: 645px;
-    float:left;
-    margin-left: 155px;}
+    width: 700px;
+    float: left;
+    border-top: solid;
+    border-top-color:#9E643C;
+    border-top-width:20px;
+    border-bottom: solid;
+    border-bottom-color:#9E643C;
+    border-bottom-width:20px;
+    margin-top: 15px;
+    border-left: dashed;
+    border-left-color:#9E643C;
+    border-left-width: 2px;}
 #three {
     padding: 5px;
-    width:1350px;
-    float: left;
-    margin-left: 155px;
-}
+    padding-bottom: 22px;
+    width:700px;
+    float: right;
+    margin-right: auto;
+    border-top: solid;
+    border-top-color:#9E643C;
+    border-top-width:20px;
+    border-bottom: solid;
+    border-bottom-color:#9E643C;
+    border-bottom-width:20px;
+    margin-top: 15px;
+    border-left: dashed;
+    border-left-color:#9E643C;
+    border-left-width: 2px;}
 #four {
     margin-bottom: 20px;
     padding: 5px; 
-    width: 650px;
+    width: 700px;
     float:left;
-    margin-right: 155px}
+    border-bottom: solid;
+    border-bottom-color:#9E643C;
+    border-bottom-width:20px;
+    border-left: dashed;
+    border-left-color:#9E643C;
+    border-left-width:2px;}
 #five {
     margin-bottom: 8.25px;
     font-size: 1.15em}
